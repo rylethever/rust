@@ -16,8 +16,12 @@ Ownership Rules
 3. When the owner goes out of scope, the value will be dropped.
 
 
-Eg.
-{ //s is not valid here. It's not yet declared
-  let s = "Hello"; // s is valid from this point forward
-  // do stuff with s
+Eg.  
+{ //s is not valid here. It's not yet declared  
+  let s = "Hello"; // s is valid from this point forward  
+  // do stuff with s  
 } // this scope is now over, and s is no longer valid
+
+Rules of References
+1. At any given time, you can have either one mutable reference or any number of immutable references.
+2. References must always be valid
