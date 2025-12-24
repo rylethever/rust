@@ -3,3 +3,4 @@ NOTES:
 2. To reference a mutable variable, put mut after &. Eg. &mut samepleVariable
 3. Whenever referencing a variable, it should have an '&'
 4. Variables have "Ownership".
+5. Constant variables needs to include "type".
