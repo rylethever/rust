@@ -25,3 +25,9 @@ Eg.
 Rules of References
 1. At any given time, you can have either one mutable reference or any number of immutable references.
 2. References must always be valid
+
+Structs  
+1. Acts like as an object/wrapper
+2. struct keyword
+3. To have a method for structs, use impl
+4. Methods in rust- can be used as a getter setter while associated functions can be used as a standard methods but to call it we need to use ::
